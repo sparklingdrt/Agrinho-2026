@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroForte 2026 - Futuro Sustentável</title>
+    <style>
+        /* ==========================
+           Estilo Geral
+           ========================== */
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background-color: #000;
+            color: #00ff00;
+            line-height: 1.7;
+        }
+
+        a {
+            color: #00ff00;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #66ff66;
+        }
+
+        /* ==========================
+           Cabeçalho
+           ========================== */
+        header {
+            display: flex;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #001a00;
+            border-bottom: 2px solid #00ff00;
+        }
+
+        header img {
+            height: 60px;
+            margin-right: 20px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            text-align: center;
+            flex: 1;
+            color: #00ff00;
+        }
+
+        /* ==========================
+           Hero central
+           ========================== */
+        .hero {
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 50px; /* um pouco para esquerda */
+        }
+
+        .hero h1 {
+            font-size: 3.5em;
+            margin: 0 0 20px 0;
+        }
+
+        .hero p {
+            font-size: 1.8em;
+            color: #99ff99;
+            max-width: 800px;
+        }
+
+        /* ==========================
+           Navegação
+           ========================== */
+        nav {
+            display: flex;
+            justify-content: flex-start; /* mais clássico, alinhado à esquerda */
+            gap: 30px;
+            padding: 15px 50px;
+            background-color: #003300;
+        }
+
+        nav a {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        /* ==========================
+           Seções
+           ========================== */
+        section {
+            padding: 60px 50px;
+            max-width: 1000px;
+            margin: auto;
+            text-align: left;
+        }
+
+        section h2 {
+            font-size: 2.5em;
+            border-bottom: 2px solid #00ff00;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        section p {
+            font-size: 1.3em;
+            color: #99ff99;
+            margin-bottom: 25px;
+        }
+
+        .highlight {
+            color: #66ff66;
+            font-weight: bold;
+        }
+
+        /* ==========================
+           Rodapé
+           ========================== */
+        footer {
+            text-align: center;
+            padding: 30px 50px;
+            background-color: #001a00;
+            border-top: 2px solid #00ff00;
+        }
+
+        footer p {
+            font-size: 1.1em;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .hero {
+                padding-left: 20px;
+            }
+
+            .hero h1 {
+                font-size: 2.5em;
+            }
+
+            .hero p {
+                font-size: 1.3em;
+            }
+
+            nav {
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <img src="https://via.placeholder.com/120x60.png?text=Logo" alt="Logo AgroForte">
+        <h1>AgroForte 2026</h1>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <h1>Construindo um Futuro Sustentável</h1>
+        <p>Inovação e responsabilidade ambiental para a agricultura do amanhã, de forma ética e consciente.</p>
+    </section>
+
+    <!-- Navegação -->
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#tecnologia">Tecnologia</a>
+        <a href="#sustentabilidade">Sustentabilidade</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <!-- Sobre -->
+    <section id="sobre">
+        <h2>Sobre AgroForte</h2>
+        <p>
+            AgroForte 2026 é uma iniciativa voltada para tornar a agricultura mais inteligente, eficiente e sustentável.
+            Integramos tecnologia e práticas ecológicas para produzir alimentos de qualidade, preservando o meio ambiente
+            e promovendo a responsabilidade social.
+        </p>
+        <p>
+            Nosso foco é a <span class="highlight">redução de desperdícios</span> e o uso consciente dos recursos naturais,
+            garantindo um futuro agrícola mais equilibrado e promissor.
+        </p>
+    </section>
+
+    <!-- Tecnologia -->
+    <section id="tecnologia">
+        <h2>Tecnologia no Campo</h2>
+        <p>
+            Utilizamos sensores inteligentes, drones de monitoramento e softwares de gestão para otimizar cada etapa da produção.
+            A <span class="highlight">agricultura de precisão</span> permite aumentar a produtividade e reduzir impactos ambientais.
+        </p>
+        <p>
+            Cada tecnologia é aplicada com foco em sustentabilidade e eficiência, garantindo uma produção moderna e responsável.
+        </p>
+    </section>
+
+    <!-- Sustentabilidade -->
+    <section id="sustentabilidade">
+        <h2>Sustentabilidade</h2>
+        <p>
+            Priorizamos práticas ecológicas, como rotação de culturas, compostagem, manejo consciente da água e uso de energia renovável.
+            Nosso objetivo é promover um ciclo agrícola <span class="highlight">mais verde e equilibrado</span>.
+        </p>
+        <p>
+            Sustentabilidade é o núcleo do AgroForte 2026, guiando todas as nossas decisões e ações no campo.
+        </p>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>
+            Entre em contato pelo email: <span class="highlight">contato@agroforte2026.com</span> e saiba como participar
+            dessa iniciativa sustentável.
+        </p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2026 AgroForte - Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>
